@@ -35,6 +35,12 @@ export const skills = [
   },
   { category: 'Databases', icon: 'database', items: ['MySQL', 'MongoDB', 'SQL'] },
   {
+  category: 'AI Tools & Productivity',
+  icon: 'code',
+  items: ['Claude AI', 'Claude Code', 'AI-Assisted Coding', 'Prompt Engineering', 'AI-Assisted Debugging','Technical Documentation with AI', ],  
+ 
+},
+  {
     category: 'Tools and Technologies',
     icon: 'tool',
     items: ['Git', 'GitHub', 'VS Code', 'Postman', 'Vite'],
