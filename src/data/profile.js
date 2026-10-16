@@ -12,6 +12,9 @@ export const profile = {
   phoneHref: 'tel:+917730830874',
   github: 'https://github.com/chmeghana81-dot',
   linkedin: 'https://www.linkedin.com/in/ch-meghana-a5449334a',
+ // Add this line
+  portfolio: 'https://portfolio-neon-eta-wvop8alope.vercel.app/',
+
   resume: `${base}Cheera_Meghana_Resume.pdf`,
   resumeFileName: 'Cheera_Meghana_Resume.pdf',
   intro:
