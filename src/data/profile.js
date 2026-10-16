@@ -12,8 +12,8 @@ export const profile = {
   phoneHref: 'tel:+917730830874',
   github: 'https://github.com/chmeghana81-dot',
   linkedin: 'https://www.linkedin.com/in/ch-meghana-a5449334a',
- // Add this line
   portfolio: 'https://portfolio-neon-eta-wvop8alope.vercel.app/',
+ 
 
   resume: `${base}Cheera_Meghana_Resume.pdf`,
   resumeFileName: 'Cheera_Meghana_Resume.pdf',
@@ -27,6 +27,11 @@ export const profile = {
 export const skills = [
   { category: 'Programming Languages', icon: 'code', items: ['Python', 'JavaScript', 'Java', 'C++'] },
   {
+  category: 'AI Tools & Productivity',
+  icon: 'code',
+  items: ['Claude AI', 'Claude Code', 'AI-Assisted Coding', 'Prompt Engineering', 'AI-Assisted Debugging','Technical Documentation with AI',
+   ],  },
+  {
     category: 'Frontend Development',
     icon: 'layout',
     items: ['React.js', 'Redux Toolkit', 'HTML5', 'CSS3', 'Responsive Design'],
@@ -36,13 +41,12 @@ export const skills = [
     icon: 'server',
     items: ['Django', 'Django REST Framework', 'Node.js', 'Express.js', 'REST APIs', 'JWT Authentication'],
   },
-  { category: 'Databases', icon: 'database', items: ['MySQL', 'MongoDB', 'SQL'] },
-  {
-  category: 'AI Tools & Productivity',
-  icon: 'code',
-  items: ['Claude AI', 'Claude Code', 'AI-Assisted Coding', 'Prompt Engineering', 'AI-Assisted Debugging','Technical Documentation with AI', ],  
- 
-},
+  { category: 'Databases', icon: 'database', items: ['MySQL', 'MongoDB', 'SQL'], },
+  // {
+  // category: 'AI Tools & Productivity',
+  // icon: 'code',
+  // items: ['Claude AI', 'Claude Code', 'AI-Assisted Coding', 'Prompt Engineering', 'AI-Assisted Debugging','Technical Documentation with AI',
+  //  ],  },
   {
     category: 'Tools and Technologies',
     icon: 'tool',
