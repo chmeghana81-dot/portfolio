@@ -96,7 +96,7 @@ export default function About() {
         {/* Profile Photo */}
         <div className="about-photo-container">
           <img
-            src="/image.jpeg"
+            src="/photo1.jpeg"
             alt="Meghana - Python Full Stack Developer"
             className="about-profile-photo"
           />
