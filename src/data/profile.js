@@ -25,7 +25,7 @@ export const profile = {
 }
 
 export const skills = [
-  { category: 'Programming Languages', icon: 'code', items: ['Python', 'JavaScript', 'Java', 'C++'] },
+  { category: 'Programming Languages', icon: 'code', items: ['Python', 'JavaScript',] },
   {
   category: 'AI Tools & Productivity',
   icon: 'code',
@@ -42,11 +42,7 @@ export const skills = [
     items: ['Django', 'Django REST Framework', 'Node.js', 'Express.js', 'REST APIs', 'JWT Authentication'],
   },
   { category: 'Databases', icon: 'database', items: ['MySQL', 'MongoDB', 'SQL'], },
-  // {
-  // category: 'AI Tools & Productivity',
-  // icon: 'code',
-  // items: ['Claude AI', 'Claude Code', 'AI-Assisted Coding', 'Prompt Engineering', 'AI-Assisted Debugging','Technical Documentation with AI',
-  //  ],  },
+  
   {
     category: 'Tools and Technologies',
     icon: 'tool',
@@ -56,28 +52,38 @@ export const skills = [
 
 export const projects = [
  
-
-
-
 {
-  id: 'shop-kart',
-  name: 'Shop-Kart',
+  id: 'codealfa',
+  name: 'E-Commerce (MEGA STORE)',
   description:
-    'A responsive online shopping application designed to provide a convenient product browsing and shopping experience.',
-  tech: ['React', 'JavaScript', 'CSS', 'Node.js','Express.js','MongoDB','REST API','Git','GitHub', 'Vercel'],
-  features: [
-     'Responsive shopping interface',
-     'Product browsing',
-     'Frontend and backend integration',
-     'Database integration',
-    'Live website deployment',
+    'A full-stack web application developed with frontend and backend integration, providing a responsive user interface, dynamic functionality, and efficient data management.',
+  tech: [
+    'React',
+    'JavaScript',
+    'HTML',
+    'CSS',
+    'Python',
+    'Django',
+    'Django REST Framework',
+    'REST API',
+    'SQL',
+    'Git',
+    'GitHub',
+    'Vercel'
   ],
-  live: 'https://shop-kart-lime.vercel.app/',
+  features: [
+    'Responsive user interface',
+    'Frontend and backend integration',
+    'REST API development and integration',
+    'Database integration',
+    'Dynamic data handling',
+    'Full-stack application architecture',
+    'Live website deployment'
+  ],
+  live: 'https://codealfa-frontend.vercel.app/',
   repo: null,
-  image: `${base}projects/shop-kart.png`,
+  image: `${base}projects/mega store.png`,
 },
-
-
   {
     id: 'kadappa-cafe',
     name: 'Kadappa Cafe Website',
